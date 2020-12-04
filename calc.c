@@ -6,9 +6,6 @@ int main()
     double num1, num2;
     int z;
 
-for(int i=0;;i++)
-{
-
 choose:
 
     printf("Choose an Option : \n1 = Addition\n2 = Subtraction\n3 = Multiplication\n4 = Division\n0 = Exit\n");
@@ -47,7 +44,8 @@ choose:
     default:
         goto choose;
     }
-}
+
+    goto choose;
 
     return 0;
 }
